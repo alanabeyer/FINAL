@@ -83,7 +83,7 @@ nav a:hover {
 
 nav a.active {
   background-color: white;
-  color: #444;
+  color: rgba(40,40,40, 0.5);
 }
 
 div h2{
@@ -162,7 +162,7 @@ div p{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {background-color: rgba(40,40,40, 0.5)}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -171,5 +171,5 @@ div p{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: rgba(40,40,40, 0.5);
 }
